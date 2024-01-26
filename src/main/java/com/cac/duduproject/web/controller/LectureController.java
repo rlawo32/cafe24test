@@ -23,7 +23,6 @@ public class LectureController {
     private final LectureEventService lectureEventService;
     private final LectureImageService lectureImageService;
     private final MemberService memberService;
-
     private final ImageUploadUtil imageUploadUtil;
 
     @PostMapping("/lectureWrite")
